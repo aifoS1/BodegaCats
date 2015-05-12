@@ -1,0 +1,2 @@
+class BodegaCatsController < ApplicationController
+end
