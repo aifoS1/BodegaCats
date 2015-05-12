@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :boroughs, :only => ['index']
+
   resources :bodega_cats
 
   # The priority is based upon order of creation: first created -> highest priority.
