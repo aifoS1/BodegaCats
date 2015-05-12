@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+ 
+  root 'bodega_cats#welcome'
   resources :boroughs, :only => ['index']
 
   resources :bodega_cats

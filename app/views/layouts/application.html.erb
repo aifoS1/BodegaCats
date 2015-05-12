@@ -7,6 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+ <header>
+  <nav>
+   <ul>
+	   <li><%=link_to "Bodega Cats", bodega_cats_path %></a></li>
+	   <li><%=link_to "Add a cat!", new_bodega_cat_path %></a></li>
+   </ul>
+
+  </nav>
+ </header>
 
 <%= yield %>
 
